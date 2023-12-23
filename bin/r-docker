@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cd ../build/libs
-
-pwd
-
-java -jar dynip-client.jar -protocol http -hostname host.docker.internal -port 8180 -credentials ../../src/main/sh/server/credentials -debug
-
-
